@@ -1,0 +1,60 @@
+<img src="https://i.ibb.co/tTYyN6Qw/IMG-1089.jpg" alt="Rcom Khánh">
+<p>Xin chào! Mình là <strong>Rcom Khánh</strong>, nhạc công đa năng với niềm đam mê sáng tác và biểu diễn âm nhạc. Chuyên về piano, guitar, mình luôn tìm kiếm giai điệu mới mẻ để truyền cảm hứng. Với nhiều năm kinh nghiệm biểu diễn và tham gia các cuộc thi âm nhạc, mình muốn chia sẻ hành trình âm nhạc đến cộng đồng.</p>
+<ul>
+<li>Nhạc cụ: Piano, Guitar</li>
+<li>Trình độ: Chuyên nghiệp</li>
+<li>Phong cách: Pop, Jazz, Acoustic</li>
+</ul>
+</section>
+
+<section class="achievements">
+<h2>Thành tích & Album</h2>
+<p>Những giải thưởng, album và dự án âm nhạc tiêu biểu:</p>
+<div class="cards">
+  <div class="card" onclick="openModal('modal1')">
+    <img src="https://i.ibb.co/pjPrYMGn/IMG-1103.jpg" alt="Giải thưởng 1">
+    <h3>Giải Nhì Cuộc Thi Piano Quốc Gia 2023</h3>
+  </div>
+  <div class="card" onclick="openModal('modal2')">
+    <img src="https://i.ibb.co/pjPrYMGn/IMG-1103.jpg" alt="Album 1">
+    <h3>Album Acoustic 'Melody Life'</h3>
+  </div>
+  <div class="card" onclick="openModal('modal3')">
+    <img src="https://i.ibb.co/3YjLgS0D/IMG-1104.png" alt="Dự án 1">
+    <h3>Video biểu diễn trực tuyến</h3>
+  </div>
+  <div class="card" onclick="openModal('modal4')">
+    <img src="https://i.ibb.co/JRNn8MYw/IMG-1102.jpg" alt="Dự án 2">
+    <h3>Tham gia Festival Âm Nhạc Quốc Tế</h3>
+  </div>
+</div>
+</section>
+
+<!-- Modals -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h2>Giải Nhì Cuộc Thi Piano Quốc Gia 2023</h2>
+    <p>Đây là thành tích quan trọng trong sự nghiệp của mình, ghi nhận kỹ năng biểu diễn piano xuất sắc và sự sáng tạo trong các bản nhạc trình diễn.</p>
+  </div>
+</div>
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h2>Album Acoustic 'Melody Life'</h2>
+    <p>Album gồm những bản sáng tác độc quyền, mang âm hưởng pop-jazz nhẹ nhàng, truyền cảm hứng và thư giãn cho người nghe.</p>
+  </div>
+</div>
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal3')">&times;</span>
+    <h2>Video biểu diễn trực tuyến</h2>
+    <p>Buổi biểu diễn trực tuyến kết nối mình với khán giả trên khắp thế giới, thể hiện kỹ năng và cảm xúc âm nhạc.</p>
+  </div>
+</div>
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal4')">&times;</span>
+    <h2>Tham gia Festival Âm Nhạc Quốc Tế</h2>
+    <p>Mình biểu diễn tại festival, giao lưu với nhạc công nổi tiếng và học hỏi kỹ thuật chuyên nghiệp.</p>
+  </div>
