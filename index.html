@@ -1,3 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rcom Khánh - Music Portfolio</title>
+<link rel="apple-touch-icon" href="https://i.ibb.co/tTYyN6Qw/IMG-1089.jpg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Rcom Khánh">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<style>
+body {
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  color:#fff;
+  background: linear-gradient(120deg, #121212, #1b1b2f, #121212);
+  background-size: 600% 600%;
+  animation: gradientBG 20s ease infinite;
+  scroll-behavior: smooth;
+}
+@keyframes gradientBG{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+header{text-align:center;padding:30px 10px;background:rgba(29,185,84,0.8);backdrop-filter:blur(10px);}
+header h1{margin:0;font-size:3em;background: linear-gradient(90deg, #1db954, #00ffea);-webkit-background-clip:text;color:transparent;text-shadow:0 0 10px rgba(29,185,84,0.7);}
+header p{margin:5px 0;font-size:1.2em;color:#ccc;}
+section{padding:20px;margin:10px;opacity:0;transform:translateY(50px);transition: all 0.8s ease-out;}
+section.visible{opacity:1;transform:translateY(0);}
+h2{color:#1db954;margin-bottom:15px;background: linear-gradient(90deg, #1db954, #00ffea);-webkit-background-clip:text;color:transparent;text-shadow:0 0 10px rgba(29,185,84,0.7);font-size:2em;}
+.profile img{width:180px;height:180px;border-radius:50%;display:block;margin:0 auto 15px;border:3px solid #1db954;}
+.profile ul{list-style:none;padding:0;margin:10px auto;text-align:center;}
+.cards{display:flex;flex-wrap:wrap;justify-content:center;}
+.card{background:#222;margin:10px;padding:15px;border-radius:12px;width:250px;box-shadow:0 4px 12px rgba(0,0,0,0.5);transition: transform 0.3s, box-shadow 0.3s;cursor:pointer;}
+.card:hover{transform:translateY(-10px) scale(1.05);box-shadow:0 10px 20px rgba(0,255,150,0.6);}
+.card img{width:100%;border-radius:10px;margin-bottom:10px;}
+.card a{color:#1db954;text-decoration:none;transition:0.3s;}
+.card a:hover{color:#00ffea;}
+audio{width:100%;margin-top:5px;}
+iframe{width:100%;height:315px;border:none;border-radius:10px;}
+a{color:#1db954;text-decoration:none;transition:0.3s;}
+a:hover{color:#00ffea;}
+
+/* ===== Modal ===== */
+.modal{display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;overflow:auto;background: rgba(0,0,0,0.8);}
+.modal-content{background:#222;margin:10% auto;padding:20px;border-radius:12px;width:80%;max-width:500px;color:#fff;animation:fadeIn 0.4s;}
+.close{color:#1db954;float:right;font-size:28px;font-weight:bold;cursor:pointer;}
+.close:hover{color:#00ffea;}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+
+/* ===== Footer ===== */
+footer{ text-align:center; padding:20px; background:rgba(29,185,84,0.8); color:#fff; margin-top:20px; border-top:1px solid #1db954;}
+footer a{color:#00ffea; text-decoration:none;}
+footer a:hover{color:#1db954;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Rcom Khánh</h1>
+<p>Portfolio & Music Studio</p>
+</header>
+
+<section class="profile">
+<h2>Hồ sơ âm nhạc</h2>
 <img src="https://i.ibb.co/tTYyN6Qw/IMG-1089.jpg" alt="Rcom Khánh">
 <p>Xin chào! Mình là <strong>Rcom Khánh</strong>, nhạc công đa năng với niềm đam mê sáng tác và biểu diễn âm nhạc. Chuyên về piano, guitar, mình luôn tìm kiếm giai điệu mới mẻ để truyền cảm hứng. Với nhiều năm kinh nghiệm biểu diễn và tham gia các cuộc thi âm nhạc, mình muốn chia sẻ hành trình âm nhạc đến cộng đồng.</p>
 <ul>
@@ -58,3 +125,58 @@
     <h2>Tham gia Festival Âm Nhạc Quốc Tế</h2>
     <p>Mình biểu diễn tại festival, giao lưu với nhạc công nổi tiếng và học hỏi kỹ thuật chuyên nghiệp.</p>
   </div>
+</div>
+
+<section class="media">
+<h2>Nghe nhạc / Video</h2>
+<div class="cards">
+<div class="card">
+<h3>Bài hát: Sunshine</h3>
+<audio controls>
+<source src="https://drive.google.com/uc?export=download&id=1HMFRyoleUMGPTGDuEJTcsJeBNYvz0vxt" type="audio/mpeg">
+Trình duyệt của bạn không hỗ trợ audio.
+</audio>
+</div>
+<div class="card">
+<h3>Video biểu diễn piano</h3>
+<iframe src="https://www.youtube.com/embed/2ApmjahcxzA?si=tjtdAdNfiWHpSWYD" title="Biểu diễn piano của mình" allowfullscreen></iframe>
+</div>
+</div>
+</section>
+
+<section class="contact">
+<h2>Liên hệ</h2>
+<p>Email: <a href="mailto:trungkhanh@example.com">trungkhanh@example.com</a></p>
+<p>Mạng xã hội: 
+<a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">YouTube</a>
+</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Rcom Khánh. All rights reserved.</p>
+  <p>Youtube: <a href="https://youtu.be/VcWqTV7bswY?si=NK2NQOz6NGwDhCJl" target="_blank">Xem kênh của mình</a></p>
+</footer>
+
+<script>
+// Scroll fade-in
+const sections=document.querySelectorAll('section');
+window.addEventListener('scroll',()=>{
+  const triggerBottom=window.innerHeight*0.85;
+  sections.forEach(section=>{
+    const top=section.getBoundingClientRect().top;
+    if(top<triggerBottom) section.classList.add('visible');
+  });
+});
+
+// Modal functions
+function openModal(id){document.getElementById(id).style.display='block';}
+function closeModal(id){document.getElementById(id).style.display='none';}
+window.onclick=function(event){
+  document.querySelectorAll('.modal').forEach(m=>{
+    if(event.target==m) m.style.display='none';
+  });
+}
+</script>
+
+</body>
+</html>
